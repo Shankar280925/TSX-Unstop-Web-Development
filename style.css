@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fdfaf6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+.site-header {
+  background-color: #d8f3dc;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 2px solid #95d5b2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.site-title {
+  color: #344e41;
+  font-size: 32px;
+}
+
+.main-nav .nav-list {
+  margin-top: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #40916c;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #b7e4c7;
+  color: #1b4332;
+}
+
+
+.site-main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+
+.main-article {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(175, 195, 210, 0.2);
+}
+
+.main-article h3 {
+  color: #52796f;
+  margin-bottom: 15px;
+}
+
+.main-article p {
+  margin-bottom: 12px;
+}
+
+
+.sidebar {
+  background-color: #fde2e4;
+  padding: 20px;
+  border-radius: 14px;
+  border-left: 5px solid #f08080;
+  box-shadow: 0 2px 10px rgba(255, 192, 203, 0.2);
+}
+
+.sidebar h4 {
+  margin-bottom: 10px;
+  color: #c9184a;
+}
+
+
+.main-heading {
+  text-align: center;
+  font-size: 36px;
+  margin: 40px 0 20px;
+  color: #7f5af0;
+}
+
+.intro-paragraph {
+  text-align: center;
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+
+.action-button {
+  display: block;
+  margin: 0 auto 40px;
+  padding: 14px 30px;
+  background-color: #ffd6a5;
+  color: #333;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 214, 165, 0.4);
+}
+
+.action-button:hover {
+  background-color: #fcbf49;
+  transform: scale(1.05);
+}
+
+
+.site-footer {
+  background-color: #e0fbfc;
+  color: #3d5a80;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  border-top: 1px solid #a8dadc;
+}
