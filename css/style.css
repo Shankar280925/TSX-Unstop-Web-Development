@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4d8365;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4d8365;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+section h2 {
+  color: #333;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+section {
+  padding-top: 40px;
+}
+
+section .content {
+  width: 80%;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about .about-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+section .title span {
+  color: #0E2431;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+/* styles.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation bar styling (optional) */
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: blue;
+  font-weight: 500;
+}
+
+.skills-left {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.skills-left {
+  width: 600px; /* Adjust width as needed */
+  background: #f9f9f9;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.skills-left h2 {
+  font-size: 2rem;
+  color: #504040;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.skills-left p {
+  font-size: 1rem;
+  margin-bottom: 1.6rem;
+  color: #555;
+}
+
+.skills-left ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-left > ul > li {
+  margin-bottom: 1.2rem;
+  padding-left: 2.8rem;
+  position: relative;
+  font-size: 1.05rem;
+}
+
+.skills-left > ul > li .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.skills-left > ul > li strong {
+  color: #0b3d91;
+  font-weight: 600;
+}
+
+.skills-left ul ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  list-style: disc;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.skills-left ul ul li {
+  margin-bottom: 0.4rem;
+}
+
+.card {
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+
+
+.services .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch; /* Ensures boxes stretch to same height */
+}
+
+.services .boxes .box { 
+  width: 300px;           /* Adjust size as needed */
+  height: 300px;          /* Same as width to make it square */
+  background-color: #0E2431; /* Or your current purple */
+  border-radius: 20px;
+  margin: 0 auto;         /* Center horizontally */
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.services .boxes .box a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+
+.services .boxes .box:hover {
+  background: #36d0db;
+  color: #fff;
+}
+
+.services .boxes .box .icon {
+  height: 50px;
+  width: 50px;
+  background:  #d9a0f3;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+
+.services .boxes .box:hover .icon {
+  background-color: #fff;
+  color:  #d9a0f3;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f5f3ef; /* light beige */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2c2c2c; /* dark charcoal */
+  margin-bottom: 10px;
+}
+
+#contact hr {
+  width: 80px;
+  height: 3px;
+  background-color: #a16207; /* golden brown accent */
+  border: none;
+  margin: 0 auto 30px;
+}
+
+#contact p {
+  font-size: 18px;
+  color: #4b4b4b; /* moderate gray */
+  margin: 10px 0;
+}
+
+#contact a {
+  color: #a16207; /* matching accent color */
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+  background: #2c2c2c; /* dark charcoal background */
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer .text span {
+  font-size: 17px;
+  font-weight: 400;
+  color: #e7e5e4; /* light sand text */
+}
+
+footer .text span a {
+  font-weight: 500;
+  color: #e7b52d; /* gold accent for links */
+}
+
+footer .text span a:hover {
+  text-decoration: underline;
+}
+
+/* Scroll To Top Button */
+.scroll-button a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #a16207; /* golden brown */
+  padding: 7px 12px;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  display: none;
+}
